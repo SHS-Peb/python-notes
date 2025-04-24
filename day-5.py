@@ -4,11 +4,11 @@ now = datetime.now()
 hour = now.hour
 
 if hour < 12:
-    greeting = "Good morning!"
+    greeting = "Morning Barbie!!"
 elif hour < 18:
-    greeting = "Good afternoon!"
+    greeting = "Afternoon Bestie!"
 else:
-    greeting = "Good evening!"
+    greeting = "Good Evening Girly!!"
 
 print(greeting)
 print("Current date and time:", now.strftime("%Y-%m-%d %H:%M:%S"))
